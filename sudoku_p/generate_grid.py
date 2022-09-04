@@ -298,7 +298,7 @@ def main(Game, rows, width):
                     
                 elif event.key == pygame.K_c:
                     
-                    grid = make_g.make_grid(rows, width)
+                    grid = make_grid(rows, width)
                     
     
 main(Game, 9, 801)
